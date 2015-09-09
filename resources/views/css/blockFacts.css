@@ -1,0 +1,16 @@
+#blockFacts {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  width: 100%; }
+  #blockFacts #sectionFacts {
+    margin-top: 50px; }
+    #blockFacts #sectionFacts img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockFacts #sectionFacts .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockFacts.css.map */

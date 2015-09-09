@@ -1,0 +1,16 @@
+#blockLifestyle {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  width: 100%; }
+  #blockLifestyle #sectionLifestyle {
+    margin-top: 50px; }
+    #blockLifestyle #sectionLifestyle img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockLifestyle #sectionLifestyle .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockLifestyle.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACV,UAAU,EAAE,IAAI;EAEhB,KAAK,EAAE,IAAI;EAEX,yBAAc;IACb,UAAU,EAAE,IAAI;IAChB,6BAAI;MACH,UAAU,EAAE,KAAK;MACjB,OAAO,EAAE,KAAK;MACd,WAAW,EAAE,IAAI;MACjB,YAAY,EAAE,IAAI;IAGnB,8BAAK;MACJ,UAAU,EAAE,IAAI;MAChB,aAAa,EAAE,IAAI",
+"sources": ["../sass/blockRisks.scss"],
+"names": [],
+"file": "blockRisks.css"
+}

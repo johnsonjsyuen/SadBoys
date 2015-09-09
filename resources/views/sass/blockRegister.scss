@@ -1,0 +1,56 @@
+#blockRegister{
+	margin-top: 20px;
+	background-color: #e6e6e6;
+	width: 100%;
+
+	#sectionRegister {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		img {
+			max-height: 150px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.row {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.btn {
+			border-radius: 0;
+			border: 0;
+			border-bottom: 4px solid #CCCCCC;
+			margin:0;
+			-webkit-box-shadow: 0 5px 5px -6px rgba(0,0,0,.3);
+			-moz-box-shadow: 0 5px 5px -6px rgba(0,0,0,.3);
+			box-shadow: 0 5px 5px -6px rgba(0,0,0,.3);
+
+			&.btn-block:active, .btn .btn-lg:active {
+				-webkit-box-shadow: inset 0 3px 3px -5px rgba(0,0,0,.3);
+				-moz-box-shadow: inset 0 3px 3px -5px rgba(0,0,0,.3);
+				box-shadow: inset 0 3px 3px -5px rgba(0,0,0,.3);
+
+			}
+
+
+			&.btn-info {
+				background-color: #f22613;
+				border-color: #cf000f;
+				text-shadow: 1px 1px 0 #cf000f;
+				border-radius: 5px;
+
+				&:hover, &:focus {
+					background-color: #45abcd;
+					border-color: #347abe;
+				}
+			}
+
+		}
+
+
+
+	}
+
+}

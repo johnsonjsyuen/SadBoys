@@ -1,0 +1,15 @@
+#blockLower {
+  margin-top: 20px;
+  width: 100%; }
+  #blockLower #sectionLower {
+    margin-top: 50px; }
+    #blockLower #sectionLower img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockLower #sectionLower .row {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockLower.css.map */
