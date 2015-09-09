@@ -1,0 +1,12 @@
+#blockLanding {
+  background-image: url("../img/landing.jpg");
+  background-size: 100%;
+  height: 80vh; }
+  #blockLanding #tagline {
+    background-color: #666;
+    position: absolute;
+    bottom: 0%;
+    padding-bottom: 20px;
+    width: 100%; }
+
+/*# sourceMappingURL=blockLanding.css.map */
