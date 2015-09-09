@@ -20,5 +20,11 @@
   .navbar > .container .navbar-brand-centered,
   .navbar > .container-fluid .navbar-brand-centered {
     margin-left: -80px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .navbar img {
+    max-width: 100px; }
+  .navbar .navbar-brand-centered {
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=index.css.map */

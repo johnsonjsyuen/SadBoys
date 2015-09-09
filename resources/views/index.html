@@ -24,7 +24,7 @@
 
 </head>
 <body>
- <nav class="navbar navbar-default" role="navigation">
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -39,14 +39,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-brand-centered">
       <ul class="nav navbar-nav">
-        <li><a href="#">CVD</a></li>
-        <li><a href="#">Risk Factors</a></li>
-        <li><a href="#">Prevention</a></li>
+        <li><a href="#blockCVD">CVD</a></li>
+        <li><a href="#blockRisks">Risk Factors</a></li>
+        <li><a href="#blockLower">Prevention</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">About</a></li>
         <li><a href="#">Tools</a></li>
-        <li><a href="#">Account</a></li>           
+        <li><a href="#blockRegister">Register</a></li>           
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -253,25 +253,25 @@
         <div class="col-md-3">
           <img src="img/prevention1.svg">
           <h3 class="text-center">Quit Smoking</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
         <div class="col-md-3">
           <img src="img/prevention2.svg">
           <h3 class="text-center">Improve cholesterol levels</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
          <div class="col-md-3">
           <img src="img/prevention3.svg">
           <h3 class="text-center">Control High Blood Pressure</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
         <div class="col-md-3">
           <img src="img/prevention4.svg">
           <h3 class="text-center">Get Active</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
 
@@ -281,25 +281,25 @@
         <div class="col-md-3">
           <img src="img/prevention5.svg">
           <h3 class="text-center">Follow a heart-healthy diet</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
         <div class="col-md-3">
           <img src="img/prevention6.svg">
           <h3 class="text-center">Get to a healthy weight</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
          <div class="col-md-3">
           <img src="img/prevention7.svg">
           <h3 class="text-center">Control Diabetes</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
         <div class="col-md-3">
           <img src="img/prevention8.svg">
-          <h3 class="text-center">Manage Stress and Anger</h3>
-          <p class="text-center">f you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+          <h3 class="text-center">Manage Stress&Anger</h3>
+          <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
 
         </div>
     </div>
@@ -347,6 +347,23 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script>
+  $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+      || location.hostname == this.hostname) {
+
+      var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top - 80
+      }, 500);
+      return false;
+    }
+  }
+});
+</script>
 
 </body>
 </html>
