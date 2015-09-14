@@ -18,7 +18,7 @@
 
     <div id="blockLanding">
         <div id="tagline" >
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                 <h3 class="text-center text-white">Tired of balancing the tresses of uni and looking after your body?</h3>
                 <h1 class="text-center text-white">We give you the answers so you don't fail a heart exam.</h1>
             </div>
@@ -35,7 +35,7 @@
         </div>
 
         <div id="sectionDiseases">
-            <div class="row">
+            <div class="row wow fadeInRight">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="col-md-4">
                         <img src="img/heart1.svg">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row wow fadeInLeft">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="col-md-4">
                         <img src="img/heart4.svg">
@@ -87,11 +87,11 @@
 
     <div id="blockFacts" >
         <div class="container">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                 <h2 class="text-center">Cardiovascular Disease Facts</h2>
             </div>
             <div id="sectionFacts" class="col-md-10 col-md-offset-1">
-                <div class="row">
+                <div class="row wow fadeInRight">
                     <div class="col-md-6">
                         <img src="img/heartfact1.svg">
                         <h3 class="text-center">Heart disease is the #1 cause of death worldwide.</h3>
@@ -104,7 +104,7 @@
 
                 </div>
 
-                <div class="row">
+                <div class="row wow fadeInLeft">
                     <div class="col-md-4">
                         <img src="img/heartfact3.svg">
                         <h3 class="text-center">Cardiovascular disease affects one in six Australians or 3.72 million.</h3>
@@ -125,11 +125,11 @@
 
     <div id="blockRisks" >
         <div class="container">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                 <h2 class="text-center">Risk Factors</h2>
             </div>
             <div id="sectionRisks" class="col-md-10 col-md-offset-1">
-                <div class="row">
+                <div class="row wow fadeInRight">
                     <div class="col-md-6">
                         <img src="img/heartrisk1.svg">
                         <h3 class="text-center">High Blood pressure</h3>
@@ -145,7 +145,7 @@
 
                 </div>
 
-                <div class="row">
+                <div class="row wow fadeInLeft">
                     <div class="col-md-4">
                         <img src="img/heartrisk3.svg">
                         <h3 class="text-center">Diabetes</h3>
@@ -169,11 +169,11 @@
 
     <div id="blockLifestyle" >
         <div class="container">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                 <h2 class="text-center">You're at risk if you...</h2>
             </div>
             <div id="sectionLifestyle" class="col-md-10 col-md-offset-1">
-                <div class="row">
+                <div class="row wow fadeInRight">
                     <div class="col-md-6">
                         <img src="img/heartlifestyle1.svg">
                         <h3 class="text-center">Smoke</h3>
@@ -189,7 +189,7 @@
 
                 </div>
 
-                <div class="row">
+                <div class="row wow fadeInLeft">
                     <div class="col-md-6">
                         <img src="img/heartlifestyle3.svg">
                         <h3 class="text-center">Don’t Exercise</h3>
@@ -209,11 +209,11 @@
 
     <div id="blockLower" >
         <div class="container-fluid">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                 <h2 class="text-center">How do I lower my risk?</h2>
             </div>
             <div id="sectionLower" class="col-md-10 col-md-offset-1">
-                <div class="row">
+                <div class="row wow fadeInRight">
                     <div class="col-md-3">
                         <img src="img/prevention1.svg">
                         <h3 class="text-center">Quit Smoking</h3>
@@ -241,7 +241,7 @@
 
                 </div>
 
-                <div class="row">
+                <div class="row wow fadeInLeft">
                     <div class="col-md-3">
                         <img src="img/prevention5.svg">
                         <h3 class="text-center">Follow a heart-healthy diet</h3>
@@ -272,33 +272,33 @@
 
         <div id="blockRegister" >
             <div class="container">
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-10 col-md-offset-1 wow fadeInUp">
                     <h2 class="text-center">Seem a bit overwhelming?</h2>
                     <h3 class="text-center">Let us sort out your health plan so you can focus on your studies!</h2>
 
                 </div>
                 <div id="sectionRegister" class="col-md-10 col-md-offset-1">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInUp">
                             <img src="img/weHelp.svg">
                             <h3 class="text-center">Body Mass Index Calculator and Statistics</h3>
                             <p class="text-center">We can help you track and monitor your BMI as you progress towards your healthier you so that you can seamlessly look back and see how far you’ve come!</p>
 
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.25s">
                             <img src="img/weHelp2.svg">
                             <h3 class="text-center">Calorie counter and Healthy Eating Tips</h3>
                             <p class="text-center">Our easy to follow healthy eating tips and simple to use calorie counter can help you to watch what you put into your body so your heart can healthily output 100%!</p>
 
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
                             <img src="img/weHelp3.svg">
                             <h3 class="text-center">Minimise lifestyle risks and Maximise social life</h3>
                             <p class="text-center">We can provide you with the latest techniques in reducing your lifestyle risks like smoking and excessie drinking, and connect you with a network of similarly minded people trying to give their heart and bodies a new start!</p>
 
                         </div>
                     </div>
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="1s">
                         <button class="btn btn-info btn-lg btn-block">Register</button>
                     </div>
                 </div>

@@ -8,7 +8,9 @@
     <title>HeartSmart</title>
 
     <!-- Bootstrap -->
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="css/index.css" rel="stylesheet">
     @yield('Head')
 
@@ -55,6 +57,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
 
     <script>
         $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
