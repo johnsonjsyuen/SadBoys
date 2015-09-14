@@ -28,6 +28,13 @@ Route::get('/about', 'PagesController@about');
 //tools page
 Route::resource('/tools', 'ToolsController@index');
 
+//recipes
+Route::get('/recipes', 'RecipeController@index');
+Route::get('/recipes/create', 'RecipeController@create');
+Route::post('/recipes', 'RecipeController@store');
+
+Route::get('/getRecipes', 'RecipeController@getRecipes');
+
 
 //account page
 Route::resource('/account', 'AccountController@index');

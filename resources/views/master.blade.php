@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>HeartSmart</title>
-
+    <link href="css/reset.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+
+
+
     @yield('Head')
 
+
+    <link href="css/blockLanding.css" rel="stylesheet">
+    <link href="css/blockCVD.css" rel="stylesheet">
+    <link href="css/blockFacts.css" rel="stylesheet">
+    <link href="css/blockRisks.css" rel="stylesheet">
+    <link href="css/blockLifestyle.css" rel="stylesheet">
+    <link href="css/blockLower.css" rel="stylesheet">
+    <link href="css/blockRegister.css" rel="stylesheet">
 
 
 
@@ -34,9 +45,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-brand-centered">
             <ul class="nav navbar-nav">
-                <li><a href="#blockCVD">CVD</a></li>
-                <li><a href="#blockRisks">Risk Factors</a></li>
-                <li><a href="#blockLower">Prevention</a></li>
+                <li><a href="/#blockCVD">CVD</a></li>
+                <li><a href="/#blockRisks">Risk Factors</a></li>
+                <li><a href="/#blockLower">Prevention</a></li>
+                <li><a href="/recipes">Recipes</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">About</a></li>
