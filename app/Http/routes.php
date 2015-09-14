@@ -16,12 +16,9 @@
 //index/homepage series
 Route::get('/', 'PagesController@index');
 
-Route::get('/WhatIsCvd', 'PagesController@WhatIsCvd');
-Route::get('/GeneralCvdFacts', 'PagesController@GeneralCvdFacts');
-Route::get('/RiskRactors', 'PagesController@RiskRactors');
-Route::get('/LifestyleRisks', 'PagesController@LifestyleRisks');
-Route::get('/Prevention', 'PagesController@Prevention');
-Route::get('/HowWeHelp', 'PagesController@HowWeHelp');
+Route::get('/privacy', 'PagesController@privacy');
+Route::get('/help', 'PagesController@help');
+
 
 
 //about series
@@ -31,6 +28,22 @@ Route::get('/about', 'PagesController@about');
 //tools page
 Route::resource('/tools', 'ToolsController@index');
 
+//recipes
+Route::get('/recipes', 'RecipeController@index');
+Route::get('/recipes/create', 'RecipeController@create');
+Route::post('/recipes', 'RecipeController@store');
+
+Route::get('/getRecipes', 'RecipeController@getRecipes');
+
 
 //account page
 Route::resource('/account', 'AccountController@index');
+
+//contact page
+Route::get('/contact', 'PagesController@contact');
+
+//feedback page
+Route::get('/feedback', 'PagesController@feedback');
+
+//feedback page
+Route::get('/sitemap', 'PagesController@sitemap');
