@@ -30,12 +30,18 @@
 
 
                 <h2>Where can I learn more about Cardiovascular Disease?</h2>
-                <p>Basic information and facts about the disease can be accessed <a href="#">here</a>. To learn more about the disease in your particular circumstances, we suggest organising an appointment with one of our HeartSmart doctors after registering an account.</p>
+                <p>Basic information and facts about the disease can be accessed <a href="/">here</a>. To learn more about the disease in your particular circumstances, we suggest organising an appointment with one of our HeartSmart doctors after registering an account.</p>
 
                 <h2>Is there a mobile application available for HeartSmart users?</h2>
                 <p>An Android and iPhone mobile app containing the core features (stat tracking, calculators, tools etc.) is currently under development.</p>
                 <h2>What is your privacy policy?</h2>
                 <p>Please click <a href="/privacy">here</a> to view our privacy policy</p>
+
+                <h2>How can I contact you?</h2>
+                <p>Please submit your question/feedback via the feedback form and we will respond within 1 business day.
+                </p>
+                <p>Alternatively, please contact us at: "admin@heartsmart.com"</p>
+
             </div>
 
 

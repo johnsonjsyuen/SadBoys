@@ -48,12 +48,12 @@
                 <li><a href="/#blockCVD">CVD</a></li>
                 <li><a href="/#blockRisks">Risk Factors</a></li>
                 <li><a href="/#blockLower">Prevention</a></li>
-                <li><a href="/recipes">Recipes</a></li>
+
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/about">About</a></li>
-                <li><a href="/help">Help</a></li>
+
                 <li><a href="/tools">Tools</a></li>
+                <li><a href="/recipes">Recipes</a></li>
                 <li><a href="/account">Register</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -61,7 +61,18 @@
 </nav>
 @yield('Content')
 
+<footer class="footer">
+    <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about">About</a></li>
+            <li><a href="/help">Help</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/sitemap">Sitemap</a></li>
 
+        </ul>
+    </div>
+</footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->

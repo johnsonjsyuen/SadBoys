@@ -38,3 +38,12 @@ Route::get('/getRecipes', 'RecipeController@getRecipes');
 
 //account page
 Route::resource('/account', 'AccountController@index');
+
+//contact page
+Route::get('/contact', 'PagesController@contact');
+
+//feedback page
+Route::get('/feedback', 'PagesController@feedback');
+
+//feedback page
+Route::get('/sitemap', 'PagesController@sitemap');

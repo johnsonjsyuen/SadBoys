@@ -19,7 +19,7 @@
     <div id="blockLanding">
         <div id="tagline" >
             <div class="col-md-10 col-md-offset-1">
-                <h3 class="text-center text-white">Tired of balancing the tresses of uni and looking after your body?</h3>
+                <h3 class="text-center text-white">Tired of balancing the stresses of uni and looking after your body?</h3>
                 <h1 class="text-center text-white">We give you the answers so you don't fail a heart exam.</h1>
             </div>
         </div>
