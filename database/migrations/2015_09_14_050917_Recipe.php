@@ -17,6 +17,7 @@ class Recipe extends Migration
         {
             $table->increments('id');
             $table->string('title');
+            $table->text('ingredients');
             $table->text('body');
             $table->timestamps();
         });
@@ -30,6 +31,6 @@ class Recipe extends Migration
      */
     public function down()
     {
-        Schema::drop('recipe');//
+        Schema::drop('recipes');//
     }
 }
