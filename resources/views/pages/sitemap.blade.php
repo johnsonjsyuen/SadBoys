@@ -12,6 +12,9 @@
                 <br>
                 <br>
                 <img src="img/sitemap.jpg" class="img-responsive">
+                <br>
+                <br>
+                <img src="img/styleguide.jpg" class="img-responsive">
             </div>
         </div>
 
