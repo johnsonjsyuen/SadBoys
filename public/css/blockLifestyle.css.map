@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACd,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EAEX,iCAAkB;IACjB,UAAU,EAAE,IAAI;IAChB,qCAAI;MACH,UAAU,EAAE,KAAK;MACjB,OAAO,EAAE,KAAK;MACd,WAAW,EAAE,IAAI;MACjB,YAAY,EAAE,IAAI;IAGnB,sCAAK;MACJ,UAAU,EAAE,IAAI;MAChB,aAAa,EAAE,IAAI",
+"sources": ["../sass/blockLifestyle.scss"],
+"names": [],
+"file": "blockLifestyle.css"
+}

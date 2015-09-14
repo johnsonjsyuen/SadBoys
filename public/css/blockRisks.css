@@ -1,0 +1,15 @@
+#blockRisks {
+  margin-top: 20px;
+  width: 100%; }
+  #blockRisks #sectionRisks {
+    margin-top: 50px; }
+    #blockRisks #sectionRisks img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockRisks #sectionRisks .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockRisks.css.map */

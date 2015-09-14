@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACT,UAAU,EAAE,IAAI;EAEhB,0BAAiB;IAChB,UAAU,EAAE,IAAI;IAChB,8BAAI;MACH,SAAS,EAAE,KAAK;MAChB,OAAO,EAAE,KAAK;MACd,WAAW,EAAE,IAAI;MACjB,YAAY,EAAE,IAAI",
+"sources": ["../sass/blockCVD.scss"],
+"names": [],
+"file": "blockCVD.css"
+}

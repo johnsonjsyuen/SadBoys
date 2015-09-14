@@ -1,0 +1,11 @@
+#blockCVD {
+  margin-top: 20px; }
+  #blockCVD #sectionDiseases {
+    margin-top: 50px; }
+    #blockCVD #sectionDiseases img {
+      max-width: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+
+/*# sourceMappingURL=blockCVD.css.map */
