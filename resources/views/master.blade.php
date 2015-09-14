@@ -28,7 +28,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand navbar-brand-centered"><img src="img/logo.svg"></div>
+            <div class="navbar-brand navbar-brand-centered"><a href="/"> <img src="img/logo.svg"></a></div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -40,6 +40,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">About</a></li>
+                <li><a href="/help">Help</a></li>
                 <li><a href="/tools">Tools</a></li>
                 <li><a href="/account">Register</a></li>
             </ul>

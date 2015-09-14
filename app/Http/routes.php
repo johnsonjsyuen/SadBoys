@@ -16,12 +16,9 @@
 //index/homepage series
 Route::get('/', 'PagesController@index');
 
-Route::get('/WhatIsCvd', 'PagesController@WhatIsCvd');
-Route::get('/GeneralCvdFacts', 'PagesController@GeneralCvdFacts');
-Route::get('/RiskRactors', 'PagesController@RiskRactors');
-Route::get('/LifestyleRisks', 'PagesController@LifestyleRisks');
-Route::get('/Prevention', 'PagesController@Prevention');
-Route::get('/HowWeHelp', 'PagesController@HowWeHelp');
+Route::get('/privacy', 'PagesController@privacy');
+Route::get('/help', 'PagesController@help');
+
 
 
 //about series

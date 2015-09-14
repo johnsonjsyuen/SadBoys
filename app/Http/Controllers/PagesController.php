@@ -18,4 +18,13 @@ class PagesController extends Controller
     {
         return view('pages.about');
     }
+
+    public function help()
+    {
+        return view('pages.help');
+    }
+    public function privacy()
+    {
+        return view('pages.privacy');
+    }
 }
