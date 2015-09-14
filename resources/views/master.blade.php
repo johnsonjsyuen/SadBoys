@@ -8,7 +8,6 @@
     <title>HeartSmart</title>
     <link href="css/reset.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="css/reset.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link href="css/index.css" rel="stylesheet">
@@ -82,6 +81,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      wow.init();
+    });
+
+    wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       false,       // default
+        live:         true        // default
+      }
+  );
+    </script>
 
 
     <script>
