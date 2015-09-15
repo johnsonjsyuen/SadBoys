@@ -27,7 +27,7 @@
                 <button id="btn" onclick="toggle_visibility('fitness')">NSFW</button>
                 <div id="fitness" style="display:none"><iframe width="420" height="315" src="https://www.youtube.com/embed/3Mg0yIbYorg" frameborder="0" allowfullscreen></iframe>
                 </div>
-                
+
                     <br>
                 <br>
                 <h3>The Team</h3>
