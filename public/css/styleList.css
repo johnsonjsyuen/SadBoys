@@ -1,0 +1,165 @@
+.navbar {
+  margin-bottom: 0px; }
+  .navbar img {
+    width: 100%;
+    max-width: 200px; }
+  .navbar ul {
+    padding-top: 40px; }
+
+.text-white {
+  color: #fff; }
+
+@media screen and (min-width: 768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center; }
+
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+    margin-left: -80px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .navbar img {
+    max-width: 100px; }
+  .navbar .navbar-brand-centered {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=index.css.map */
+
+
+#blockLanding {
+  background-image: url("../img/landing.jpg");
+  background-size: 100%;
+  height: 100vh;
+  min-height: 100%;
+  position: relative; }
+  #blockLanding #tagline {
+    background-color: #666;
+    position: absolute;
+    bottom: 0%;
+    padding-bottom: 20px;
+    width: 100%; }
+
+/*# sourceMappingURL=blockLanding.css.map */
+
+
+#blockCVD {
+  margin-top: 20px; }
+  #blockCVD #sectionDiseases {
+    margin-top: 50px; }
+    #blockCVD #sectionDiseases img {
+      max-width: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+
+/*# sourceMappingURL=blockCVD.css.map */
+
+#blockFacts {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  width: 100%; }
+  #blockFacts #sectionFacts {
+    margin-top: 50px; }
+    #blockFacts #sectionFacts img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockFacts #sectionFacts .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockFacts.css.map */
+
+#blockRisks {
+  margin-top: 20px;
+  width: 100%; }
+  #blockRisks #sectionRisks {
+    margin-top: 50px; }
+    #blockRisks #sectionRisks img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockRisks #sectionRisks .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockRisks.css.map */
+
+#blockLifestyle {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  width: 100%; }
+  #blockLifestyle #sectionLifestyle {
+    margin-top: 50px; }
+    #blockLifestyle #sectionLifestyle img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockLifestyle #sectionLifestyle .row {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockLifestyle.css.map */
+
+#blockLower {
+  margin-top: 20px;
+  width: 100%; }
+  #blockLower #sectionLower {
+    margin-top: 50px; }
+    #blockLower #sectionLower img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockLower #sectionLower .row {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+
+/*# sourceMappingURL=blockLower.css.map */
+
+#blockRegister {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  width: 100%; }
+  #blockRegister #sectionRegister {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #blockRegister #sectionRegister img {
+      max-height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #blockRegister #sectionRegister .row {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    #blockRegister #sectionRegister .btn {
+      border-radius: 0;
+      border: 0;
+      border-bottom: 4px solid #CCCCCC;
+      margin: 0;
+      -webkit-box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.3); }
+      #blockRegister #sectionRegister .btn.btn-block:active, #blockRegister #sectionRegister .btn .btn .btn-lg:active {
+        -webkit-box-shadow: inset 0 3px 3px -5px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: inset 0 3px 3px -5px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0 3px 3px -5px rgba(0, 0, 0, 0.3); }
+      #blockRegister #sectionRegister .btn.btn-info {
+        background-color: #f22613;
+        border-color: #cf000f;
+        text-shadow: 1px 1px 0 #cf000f;
+        border-radius: 5px; }
+        #blockRegister #sectionRegister .btn.btn-info:hover, #blockRegister #sectionRegister .btn.btn-info:focus {
+          background-color: #45abcd;
+          border-color: #347abe; }
+
+/*# sourceMappingURL=blockRegister.css.map */
+
+
