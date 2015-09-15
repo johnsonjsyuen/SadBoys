@@ -15,6 +15,9 @@
                 <br>
                 <br>
                 <img src="img/styleguide.jpg" class="img-responsive">
+                <br>
+                <br>
+                <img src="img/feedback.jpg" class="img-responsive">
             </div>
         </div>
 
