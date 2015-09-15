@@ -1,7 +1,9 @@
 @extends('master')
 
 @section('Head')
-
+        <!-- Angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="/js/recipes.js"></script>
 
     
 @endsection
@@ -43,9 +45,7 @@
     </div>
     </div>
 
-    <!-- Angular -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-    <script src="/js/recipes.js"></script>
+
 @endsection
 
 @stop
