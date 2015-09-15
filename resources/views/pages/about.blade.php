@@ -24,7 +24,11 @@
 
                 <br>
                 <br>
-                <br>
+                <button id="btn" onclick="toggle_visibility('fitness')">NSFW</button>
+                <div id="fitness" style="display:none"><iframe width="420" height="315" src="https://www.youtube.com/embed/3Mg0yIbYorg" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                    <br>
                 <br>
                 <h3>The Team</h3>
                 <br>
@@ -37,8 +41,23 @@
                 <br>Leighton Lam, LLAM9787, Copywriter
                 <br>
                 <br>Chloe King, Content Editor
-            </div>
+
         </div>
+
+
+
+
+
+            <script type="text/javascript">
+                    function toggle_visibility(id) {
+                        var e = document.getElementById(id);
+                        if(e.style.display == 'block')
+                            e.style.display = 'none';
+                        else
+                            e.style.display = 'block';
+                    }
+
+        </script>
 
 
 
