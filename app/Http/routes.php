@@ -47,3 +47,5 @@ Route::get('/feedback', 'PagesController@feedback');
 
 //feedback page
 Route::get('/sitemap', 'PagesController@sitemap');
+
+
