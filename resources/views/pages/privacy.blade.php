@@ -1,16 +1,10 @@
 
 
-@extends('master')
+@extends('blank')
 
 @section('Content')
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">
+    
+    <div class="container privacy">
         <div class="row">
             <p>This Privacy Policy governs the manner in which HeartSmart collects, uses, maintains and discloses information collected from users (each, a "User") of the http://www.HeartSmart.me website ("Site").</p>
 

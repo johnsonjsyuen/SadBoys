@@ -19,6 +19,11 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function account()
+    {
+        return view('pages.account');
+    }
+
     public function help()
     {
         return view('pages.help');

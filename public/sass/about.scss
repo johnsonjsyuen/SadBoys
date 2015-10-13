@@ -1,0 +1,22 @@
+.about {
+	margin-top: 100px; 
+
+	&__logo {
+		
+		display: block;
+		margin: 0px auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 100%;
+		max-width: 500px;
+		
+	}
+
+	&__profile {
+		display: block;
+		margin: 0px auto;
+		width: 100%;
+		max-width: 150px;
+	}
+	
+}

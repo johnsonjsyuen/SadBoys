@@ -3,7 +3,7 @@
 @extends('master')
 
 @section('Content')
-    <div id="blockCVD" class="container">
+    <div class="container contact">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <br>
