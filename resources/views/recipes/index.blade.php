@@ -16,11 +16,35 @@
             <br>
             <br>
             <br>
-            <div id="blockCVD" class="container">
+            <div id="recipes" class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-            Search: <input ng-model="query">
-            <ul>
+                    Search: <input ng-model="query">
+                    <div class="row form-group product-chooser">
+
+                        <div class="col-xs-12 col-sm-12" ng-repeat="recipe in recipes | filter:query">
+                            <div class="product-chooser-item">
+                                <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+                                    <span class="title"><h3>@{{recipe.title}}<h3></span>
+                                    <span class="description">This was created at @{{recipe.created_at}}</span>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h4>Ingredients:</h4>
+                                            <span class="description">@{{recipe.ingredients}}</span>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h4>Steps:</h4>
+                                            <span class="description">@{{recipe.body}}</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+            <!-- <ul>
 
                 <li ng-repeat="recipe in recipes | filter:query"><h3>Name:</h3>@{{recipe.title}}
 
@@ -39,7 +63,7 @@
                     This was created at @{{recipe.created_at}}
                 </li>
 
-            </ul>
+            </ul> -->
             </div>
         </div>
     </div>

@@ -27,6 +27,8 @@
     <link href="css/contact.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="css/help.css" rel="stylesheet">
+    <link href="css/recipes.css" rel="stylesheet">
+    <link href="css/tools.css" rel="stylesheet">
 
 </head>
 <body>

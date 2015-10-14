@@ -1,0 +1,26 @@
+.tools {
+  margin-top: 90px; }
+  .tools h2 {
+    text-align: center; }
+  .tools .input-group-addon.primary {
+    color: white;
+    background-color: #3276b1;
+    border-color: #285e8e; }
+  .tools .input-group-addon.success {
+    color: white;
+    background-color: #5cb85c;
+    border-color: #4cae4c; }
+  .tools .input-group-addon.info {
+    color: white;
+    background-color: #39b3d7;
+    border-color: #269abc; }
+  .tools .input-group-addon.warning {
+    color: white;
+    background-color: #f0ad4e;
+    border-color: #eea236; }
+  .tools .input-group-addon.danger {
+    color: white;
+    background-color: #d9534f;
+    border-color: #d43f3a; }
+
+/*# sourceMappingURL=tools.css.map */
