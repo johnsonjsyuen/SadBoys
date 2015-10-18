@@ -9,7 +9,7 @@
                         <h2>Daily Calorie Calculator</h2>
                     </div>
                     <div class="row">
-                        <div class="col-sm-offset-2 col-sm-6">
+                        <div class="col-sm-offset-3 col-sm-6">
                             <form method="put">
                                 <div class="form-group">
                                     <label for="age">Age</label>

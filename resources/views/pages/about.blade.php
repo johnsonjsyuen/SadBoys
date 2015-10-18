@@ -25,25 +25,25 @@
                     <p class="text-center">Design</p class="text-center">
                 </div>
                 <div class="col-md-4">
-                    <img class="about__profile img-circle" src="img/mack.jpg">
+                    <img class="about__profile img-circle" src="img/john.jpg">
                     <h4 class="text-center">Johnson Yuen</h4>
                     <p class="text-center">JYUE1654</p class="text-center">
                     <p class="text-center">Backend</p class="text-center">
                 </div>
                 <div class="col-md-4">
-                    <img class="about__profile img-circle" src="img/mack.jpg">
+                    <img class="about__profile img-circle" src="img/david.jpg">
                     <h4 class="text-center">David Ho</h4>
                     <p class="text-center">DAHO3477</p class="text-center">
                     <p class="text-center">Content</p class="text-center">
                 </div>
                 <div class="col-md-4  col-md-offset-2">
-                    <img class="about__profile img-circle" src="img/mack.jpg">
+                    <img class="about__profile img-circle" src="img/leighton.jpg">
                     <h4 class="text-center">Leighton Lam</h4>
                     <p class="text-center">LLAM9787</p class="text-center">
                     <p class="text-center">Copywriter</p class="text-center">
                 </div>
                 <div class="col-md-4">
-                    <img class="about__profile img-circle" src="img/mack.jpg">
+                    <img class="about__profile img-circle" src="img/chloe.jpg">
                     <h4 class="text-center">Chloe King, </h4>
                     <p class="text-center">CKIN1111</p class="text-center">
                     <p class="text-center">Content Editor</p class="text-center">
