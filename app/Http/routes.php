@@ -45,7 +45,10 @@ Route::get('/contact', 'PagesController@contact');
 //feedback page
 Route::get('/feedback', 'PagesController@feedback');
 
-//feedback page
+//sitemap page
 Route::get('/sitemap', 'PagesController@sitemap');
+
+//tools page
+Route::get('/tools', 'PagesController@tools');
 
 
