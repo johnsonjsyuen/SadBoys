@@ -57,7 +57,7 @@
 
                     <li><a href="/tools">Tools</a></li>
                     <li><a href="/recipes">Recipes</a></li>
-                    <li><a href="/account">Register</a></li>
+                    <li><a href="/auth/login">Login</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
