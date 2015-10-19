@@ -28,7 +28,7 @@
                     <a href="/recipes/create">Create a recipe</a>
                     <div class="row form-group product-chooser">
 
-                        <div class="col-xs-12 col-sm-12" ng-repeat="recipe in recipes | filter:query">
+                        <div class="col-xs-12 col-sm-12 wow fadeInUp" ng-repeat="recipe in recipes | filter:query">
                             <div class="product-chooser-item">
                                 <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
                                     <span class="title"><h3>@{{recipe.title}}<h3></span>
