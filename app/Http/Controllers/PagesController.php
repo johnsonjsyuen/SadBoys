@@ -44,17 +44,25 @@ class PagesController extends Controller
     {
         return view('pages.sitemap');
     }
+
     public function tools()
     {
         return view('pages.tools');
     }
-    public function login()
+
+    public function game()
     {
-        return view('pages.login');
+        return view('pages.game');
+    }
+
+    public function quiz()
+    {
+        return view('pages.quiz');
     }
     public function user()
     {
         return view('pages.user');
     }
+
 
 }
