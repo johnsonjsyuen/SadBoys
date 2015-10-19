@@ -53,6 +53,9 @@ Route::get('/login', 'PagesController@login');
 
 Route::get('/sitemap', 'PagesController@sitemap');
 
+Route::get('/user', 'PagesController@user');
+
+
 //accounts
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');

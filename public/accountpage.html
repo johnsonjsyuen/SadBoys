@@ -11,13 +11,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link href="css/shadowbox.css" rel="stylesheet">
-    <link href="css/hover-min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-
     <link href="css/index.css" rel="stylesheet">
 
-    @yield('Head')
 
+
+    
     <link href="css/blockLanding.css" rel="stylesheet">
     <link href="css/blockCVD.css" rel="stylesheet">
     <link href="css/blockFacts.css" rel="stylesheet">
@@ -31,10 +29,9 @@
     <link href="css/recipes.css" rel="stylesheet">
     <link href="css/tools.css" rel="stylesheet">
     <link href="css/accountpage.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
 
 </head>
+
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -46,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img src="img/logo.svg"></a></div>
+                <div class="navbar-brand navbar-brand-centered"><a href="/"> <img src="img/logo.svg"></a></div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,13 +58,66 @@
 
                     <li><a href="/tools">Tools</a></li>
                     <li><a href="/recipes">Recipes</a></li>
-                    <li><a href="/auth/login">Register</a></li>
+                    <li><a href="/auth/login">Login</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<div class="container ">
+		    <div class="row">
+		    	        <div class="col-md-10 col-md-offset-1 help">
+		            		<h1 class="text-center">My Account</h1>
+		    			</div>
+		    </div>
 
-    @yield('Content')
+		    <div class="row">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<h2>General</h2>
+		    	</div>
+		    </div>
+
+		    <div class="row">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<h2>Personalisation</h2>
+		    	</div>
+		    </div>
+		    <div class="row">
+		    	<div class="col-md-10 col-md-offset-2">
+		    		<h4>Username</h4>
+		    		<h4>Change Theme</h4>
+		    <div class="row">
+		    	<div class="col-md-10 col-md-offset-3">
+		    		<button type="button" id="PastelGreenButton" onclick="PastelGreenFunction()">Pastel Green</button>
+		    		<button type="button" id="SkyBlueButton" onclick="SkyBlueFunction()">Sky Blue</button>
+		    		<button type="button" id="ClassicButton" onclick="ClassicFunction()">Classic</button>
+
+		    	</div>
+		    </div>
+
+
+		    		<h4>Measurement System</h4>
+		    		<h4>BMI and Calorie Records</h4>
+		    	</div>
+		    </div>
+
+
+
+
+		    <div class="row">
+		    	<div class="col-md-10 col-md-offset-1">
+		    		<h2>Security</h2>
+		    	</div>
+		    </div>
+
+
+		</div>
+
+
 
     <footer class="footer">
         <div class="container">
@@ -87,45 +137,100 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/jquery-2.1.4.min.js"></script>
-
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/shadowbox.js"></script>
 
-    <script>
+    <!-- Pastel Green Function and Style -->
+
+<script>
     $(document).ready(function(){
-      wow.init();
-  });
-
-    wow = new WOW(
-    {
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       0,          // default
-        mobile:       false,       // default
-        live:         true        // default
-    }
-    );
-    </script>
-
-
-    <script>
-    $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-            || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top - 80
-            }, 500);
-            return false;
-        }
-    }
+    $("#PastelGreenButton").click(function(){
+        $("h2, h4, p").addClass("PastelGreen");
+        $("h1").addClass("PastelGreen2")
+    });
 });
-    </script>
+</script>
 
-</body>
-</html>
+<script>
+function PastelGreenFunction() {
+    document.body.style.backgroundColor = "#98FB98";
+    // document.getElementsByTagName("h1").style.color = "#3CB371";
+}
+</script>
+
+<style>
+.PastelGreen {
+	color: #3CB371;
+}
+.PastelGreen2 {
+	color: #2E8B57;
+}
+
+</style>
+
+	<!-- Sky Blue Function and Style -->
+
+
+<script>
+    $(document).ready(function(){
+    $("#SkyBlueButton").click(function(){
+        $("h2, h4, p").addClass("SkyBlue");
+        $("h1").addClass("SkyBlue2")
+    });
+});
+</script>
+
+<script>
+function SkyBlueFunction() {
+    document.body.style.backgroundColor = "#B0C4DE";
+}
+</script>
+
+<style>
+.SkyBlue {
+	color: #ADD8E6;
+}
+.SkyBlue2 {
+	color: #6495ED;
+}
+
+</style>
+
+
+	<!-- Classic Function and Style -->
+
+
+<script>
+    $(document).ready(function(){
+    $("#ClassicButton").click(function(){
+        $("h2, h4, p").addClass("Classic");
+        $("h1").addClass("Classic2")
+    });
+});
+</script>
+
+<script>
+function ClassicFunction() {
+    document.body.style.backgroundColor = "#DCDCDC";
+
+}
+</script>
+
+<style>
+.Classic {
+	color: #000000;
+}
+.Clasic2 {
+	color: #000000;
+}
+
+</style>
+
+
+
+
+
+
+    </body>
+    </html>
