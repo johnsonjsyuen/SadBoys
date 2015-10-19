@@ -224,19 +224,19 @@
                     <div class="col-md-3">
                         <img src="img/prevention2.svg">
                         <h3 class="text-center">Improve cholesterol levels</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">You're more likely to get heart disease if you have: Total cholesterol level over 200, HDL ("good") cholesterol level under 40, LDL ("bad") cholesterol level over 160, Triglycerides over 150</p>
 
                     </div>
                     <div class="col-md-3">
                         <img src="img/prevention3.svg">
                         <h3 class="text-center">Control High Blood Pressure</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">More than 50 million people in the U.S. have hypertension, or high blood pressure, making it the most common heart disease risk factor. Exercise and healthy eating help. Some people may need medicine to control their blood pressure, too.</p>
 
                     </div>
                     <div class="col-md-3">
                         <img src="img/prevention4.svg">
                         <h3 class="text-center">Get Active</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">People who don't exercise are more likely to get heart disease, and die from it, than people who are active. Check with your doctor before starting a new exercise program, especially if you aren't active now. They can tell you what you can do.</p>
 
                     </div>
 
@@ -246,25 +246,25 @@
                     <div class="col-md-3">
                         <img src="img/prevention5.svg">
                         <h3 class="text-center">Follow a heart-healthy diet</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">Eat foods that are low in fat and cholesterol. Just about everyone should eat more fruits, vegetables, whole grains, beans, nuts, legumes, and other plant-based foods. The fiber is good for your cholesterol, and you'll get vitamins the natural way, from foods.</p>
 
                     </div>
                     <div class="col-md-3">
                         <img src="img/prevention6.svg">
                         <h3 class="text-center">Get to a healthy weight</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">Losing extra weight is good for your heart. It can also help you lower high blood pressure and manage diabetes.</p>
 
                     </div>
                     <div class="col-md-3">
                         <img src="img/prevention7.svg">
                         <h3 class="text-center">Control Diabetes</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">Diabetes makes heart disease more likely. Many people who have diabetes don't know it. Get tested and get treated.</p>
 
                     </div>
                     <div class="col-md-3">
                         <img src="img/prevention8.svg">
                         <h3 class="text-center">Manage Stress&Anger</h3>
-                        <p class="text-center">If you smoke, you are more than twice as likely to have a heart attack as nonsmokers, and you’re much more likely to die if you do have a heart attack.</p>
+                        <p class="text-center">Everyone has stress, and it's normal to get angry now and then. When stress and anger flare up, especially if it happens a lot, that's a problem. Managing your stress and handling your anger in healthy ways puts you back in charge.</p>
 
                     </div>
                 </div>
