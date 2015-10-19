@@ -6,35 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>HeartSmart</title>
-    <link href="css/reset.css" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="css/shadowbox.css" rel="stylesheet">
-    <link href="css/hover-min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-
-    <link href="css/index.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href="../css/shadowbox.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
 
     @yield('Head')
-    @yield('Scripts')
-    @yield('CSS')
 
-
-    <link href="css/blockLanding.css" rel="stylesheet">
-    <link href="css/blockCVD.css" rel="stylesheet">
-    <link href="css/blockFacts.css" rel="stylesheet">
-    <link href="css/blockRisks.css" rel="stylesheet">
-    <link href="css/blockLifestyle.css" rel="stylesheet">
-    <link href="css/blockLower.css" rel="stylesheet">
-    <link href="css/blockRegister.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/help.css" rel="stylesheet">
-    <link href="css/recipes.css" rel="stylesheet">
-    <link href="css/tools.css" rel="stylesheet">
-    <link href="css/login.css" rel="stylesheet">
-
+    <link href="../css/blockLanding.css" rel="stylesheet">
+    <link href="../css/blockCVD.css" rel="stylesheet">
+    <link href="../css/blockFacts.css" rel="stylesheet">
+    <link href="../css/blockRisks.css" rel="stylesheet">
+    <link href="../css/blockLifestyle.css" rel="stylesheet">
+    <link href="../css/blockLower.css" rel="stylesheet">
+    <link href="../css/blockRegister.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
+    <link href="../css/help.css" rel="stylesheet">
+    <link href="../css/recipes.css" rel="stylesheet">
+    <link href="../css/tools.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
 
 </head>
 <body>
@@ -48,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img src="img/logo.svg"></a></div>
+                <div class="navbar-brand navbar-brand-centered"><a href="/"> <img src="../img/logo.svg"></a></div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,19 +56,18 @@
 
                     <li><a href="/tools">Tools</a></li>
                     <li><a href="/recipes">Recipes</a></li>
-                    <li><a href="/auth/login">Login</a></li>
+                    <li><a href="/auth/register">Register</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+
     @yield('Content')
 
     <footer class="footer">
         <div class="container">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">About</a></li>
-                <li><a href="/game">Quiz</a></li>
-
                 <li><a href="/help">Help</a></li>
                 <li><a href="/tools">Tools</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -90,9 +82,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/shadowbox.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/shadowbox.js"></script>
 
     <script>
     $(document).ready(function(){

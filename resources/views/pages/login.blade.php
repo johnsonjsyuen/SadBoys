@@ -61,7 +61,7 @@
 </div>                     
 </div>  
 </div>
-<div id="signupbox" style="display:none; margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+<div id="signupbox" style="display:none; margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 wow fadeInUp">
     <div class="panel panel-info">
         <div class="panel-heading" style="color: #fff;background-color: #f22613;">
             <div class="panel-title">Sign Up</div>

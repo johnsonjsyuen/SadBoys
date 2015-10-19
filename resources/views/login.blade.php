@@ -2,7 +2,7 @@
 
 @section('Content')
 <div class="container login">
-    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 wow fadeInUp">                    
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
         <div class="panel panel-info" >
             <div class="panel-heading" style="color: #fff;background-color: #f22613;">
                 <div class="panel-title" style="text-align: center">Sign In</div>
