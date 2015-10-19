@@ -25,6 +25,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     Search: <input ng-model="query">
+                    <a href="/recipes/create">Create a recipe</a>
                     <div class="row form-group product-chooser">
 
                         <div class="col-xs-12 col-sm-12" ng-repeat="recipe in recipes | filter:query">
