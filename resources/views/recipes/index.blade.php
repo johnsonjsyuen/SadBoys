@@ -9,14 +9,19 @@
 @endsection
 
 @section('Content')
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    @if (Session::has('flash_message'))
+        <div class="alert alert-success">{{Session::get('flash_message')}}</div>
+        @endif
+
     <div ng-app="RecipesApp">
         <div ng-controller="RecipesController"><br>
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <div id="recipes" class="container">
+            <div class="container recipes">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     Search: <input ng-model="query">

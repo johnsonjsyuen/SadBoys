@@ -13,8 +13,6 @@
     <link href="css/shadowbox.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
-
-
     @yield('Head')
 
     <link href="css/blockLanding.css" rel="stylesheet">
@@ -29,6 +27,7 @@
     <link href="css/help.css" rel="stylesheet">
     <link href="css/recipes.css" rel="stylesheet">
     <link href="css/tools.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
 
 </head>
 <body>
@@ -62,6 +61,7 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+
     @yield('Content')
 
     <footer class="footer">
@@ -69,6 +69,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">About</a></li>
                 <li><a href="/help">Help</a></li>
+                <li><a href="/tools">Tools</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/feedback">Feedback</a></li>
                 <li><a href="/sitemap">Sitemap</a></li>

@@ -51,6 +51,8 @@ class RecipeController extends Controller
     {
         $input = Request::all();
         Recipe::create($input);
+
+        \Session::flash('flash_message', 'Your recipe has been stored!');
         return redirect('recipes');
     }
 
