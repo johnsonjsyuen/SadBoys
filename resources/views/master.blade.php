@@ -16,6 +16,9 @@
 
 
     @yield('Head')
+    @yield('Scripts')
+    @yield('CSS')
+
 
     <link href="css/blockLanding.css" rel="stylesheet">
     <link href="css/blockCVD.css" rel="stylesheet">
@@ -68,6 +71,8 @@
         <div class="container">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/about">About</a></li>
+                <li><a href="/game">Quiz</a></li>
+
                 <li><a href="/help">Help</a></li>
                 <li><a href="/tools">Tools</a></li>
                 <li><a href="/contact">Contact</a></li>

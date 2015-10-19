@@ -50,5 +50,15 @@ class PagesController extends Controller
         return view('pages.tools');
     }
 
+    public function game()
+    {
+        return view('pages.game');
+    }
+
+    public function quiz()
+    {
+        return view('pages.quiz');
+    }
+
 
 }
