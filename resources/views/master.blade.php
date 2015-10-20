@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img src="img/logo.svg"></a></div>
+                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img id="logoIMG" src="img/logo.svg"></a></div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

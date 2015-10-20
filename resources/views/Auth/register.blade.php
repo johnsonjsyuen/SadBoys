@@ -1,7 +1,76 @@
 @extends('master')
 
 @section('Content')
-<div id="account" class="container">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/shadowbox.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      wow.init();
+  });
+
+    wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       false,       // default
+        live:         true        // default
+    }
+    );
+    </script>
+
+
+    <script>
+    $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top - 80
+            }, 500);
+            return false;
+        }
+    }
+});
+    </script>
+
+<script>
+    $("#logoIMG").attr("src","../img/logo.svg");
+</script>
+    <link href="../css/reset.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href="../css/shadowbox.css" rel="stylesheet">
+    <link href="../css/hover-min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
+    <link href="../css/index.css" rel="stylesheet">
+
+<link href="../css/blockLanding.css" rel="stylesheet">
+    <link href="../css/blockCVD.css" rel="stylesheet">
+    <link href="../css/blockFacts.css" rel="stylesheet">
+    <link href="../css/blockRisks.css" rel="stylesheet">
+    <link href="../css/blockLifestyle.css" rel="stylesheet">
+    <link href="../css/blockLower.css" rel="stylesheet">
+    <link href="../css/blockRegister.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
+    <link href="../css/help.css" rel="stylesheet">
+    <link href="../css/recipes.css" rel="stylesheet">
+    <link href="../css/tools.css" rel="stylesheet">
+    <link href="../css/accountpage.css" rel="stylesheet">
+
+<div id="account" class="container login">
     <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
         <div class="panel panel-info" >
             <div class="panel-heading">
