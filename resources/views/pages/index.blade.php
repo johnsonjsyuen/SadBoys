@@ -15,7 +15,7 @@
 @endsection
 
 @section('Content')
-
+<h1>Welcome</h1>
     <div id="blockLanding">
         <div id="tagline" >
             <div class="col-md-10 col-md-offset-1 wow fadeInUp">

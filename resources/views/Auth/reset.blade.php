@@ -28,16 +28,16 @@
     <link href="../css/recipes.css" rel="stylesheet">
     <link href="../css/tools.css" rel="stylesheet">
     <link href="../css/accountpage.css" rel="stylesheet">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Register</div>
+                    <div class="panel-heading">Reset Password</div>
                     <div class="panel-body">
                         @if (count($errors) > 0)
                             <div class="alert alert-danger">
@@ -50,15 +50,9 @@
                             </div>
                         @endif
 
-                        <form class="form-horizontal" role="form" method="POST" action="/auth/register">
+                        <form class="form-horizontal" role="form" method="POST" action="/password/reset">
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
-
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">Name</label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="name" value="{{ old('name') }}">
-                                </div>
-                            </div>
+                            <input type="hidden" name="token" value="{{ $token }}">
 
                             <div class="form-group">
                                 <label class="col-md-4 control-label">E-Mail Address</label>
@@ -84,7 +78,7 @@
                             <div class="form-group">
                                 <div class="col-md-6 col-md-offset-4">
                                     <button type="submit" class="btn btn-primary">
-                                        Register
+                                        Reset Password
                                     </button>
                                 </div>
                             </div>
@@ -94,11 +88,4 @@
             </div>
         </div>
     </div>
-
 @endsection
-
-@stop
-
-
-
-

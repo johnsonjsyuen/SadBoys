@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img src="img/logo.svg"></a></div>
+                <div class="navbar-brand navbar-brand-centered"><a href="/" class="hvr-grow"> <img id="logoIMG" src="img/logo.svg"></a></div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,11 +63,13 @@
 
                     <li><a href="/tools">Tools</a></li>
                     <li><a href="/recipes">Recipes</a></li>
-                    <li><a href="/auth/login">Login</a></li>
+                    <li><a href="/auth/register">Login</a></li>
+                    <li><a href="/auth/logout">logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+
     @yield('Content')
 
     <footer class="footer">

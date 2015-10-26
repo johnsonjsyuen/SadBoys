@@ -44,7 +44,6 @@ class PagesController extends Controller
     {
         return view('pages.sitemap');
     }
-
     public function tools()
     {
         return view('pages.tools');
@@ -55,9 +54,19 @@ class PagesController extends Controller
         return view('pages.game');
     }
 
-    public function quiz()
+    public function login()
     {
-        return view('pages.quiz');
+        return view('pages.login');
+    }
+
+    public function secret()
+    {
+        return \Auth::user()->name;
+    }
+
+    public function video()
+    {
+        return view('pages.video');
     }
 
 

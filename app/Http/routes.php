@@ -45,11 +45,13 @@ Route::get('/contact', 'PagesController@contact');
 //feedback page
 Route::get('/feedback', 'PagesController@feedback');
 
-//sitemap page
-Route::get('/sitemap', 'PagesController@sitemap');
-
 //tools page
 Route::get('/tools', 'PagesController@tools');
+
+//login page
+Route::get('/login', 'PagesController@login');
+
+Route::get('/sitemap', 'PagesController@sitemap');
 
 //accounts
 // Authentication routes...
@@ -63,5 +65,12 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 //game
 Route::get('game', 'PagesController@game');
+
+Route::get('secret', 'PagesController@secret');
+
+Route::get('home', 'PagesController@index');
+
+
+
 
 
